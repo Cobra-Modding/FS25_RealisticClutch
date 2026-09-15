@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="111">
+    <author>Marcus (Cobra Modding)</author>
+    <version>1.0.0.0</version>
+    <title><de>Realistische Kupplung</de><en>Realistic Clutch</en></title>
+    
+	<description>
+        <de>Analoge Pedalkupplung mit realistischem mehrstufigem Schleifbereich, Dieselregler-Unterstuetzung und Motorabwuergen. Schaltsperre mit Getriebegeraeusch bei nicht getretener Kupplung. Benoetigt ein Kupplungspedal, Manuell mit Kupplung und ausgeschalteten automatischen Motorstart.</de>
+        <en>Analog pedal clutch with realistic multi-stage bite region, diesel governor assistance and engine stalling. Gear changes require the clutch, with a grinding sound on rejected shifts. Requires a clutch pedal, manual shifting with clutch, and automatic engine start disabled.</en>
+    </description>
+    
+	<iconFilename>icon_RealisticClutch.dds</iconFilename>
+    
+	<multiplayer supported="true"/>
+    
+	<extraSourceFiles>
+        <sourceFile filename="scripts/ClutchModel.lua"/>
+        <sourceFile filename="scripts/RealisticClutch.lua"/>
+        <sourceFile filename="scripts/ClutchSound.lua"/>
+    </extraSourceFiles>
+	
+</modDesc>
